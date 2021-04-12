@@ -1,0 +1,91 @@
+/* colors and font */
+body {
+	color: rgb(230, 230, 230);
+	font-family: futura;
+	background-image: url(images/background.jpeg);
+	font-size: 17px;
+}
+
+h1 {
+	color: red;
+	font-size: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width : 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+/*customdesign with class*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-design { 
+padding: 20px;
+margin: 10px 0px;
+text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	box-shadow: 0px 6px 6px rgba(0,0,0,0.9);
+}
+
+.btn-blue {
+	background-color: rgb(40,40,40);
+	color: yellow;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {display: inline;
+padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(40,40,40);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
